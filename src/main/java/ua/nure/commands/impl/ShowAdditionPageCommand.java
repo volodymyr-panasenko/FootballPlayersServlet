@@ -6,10 +6,10 @@ import javax.servlet.http.HttpServletRequest;
 
 import static ua.nure.util.Constants.*;
 
-public class ShowAddingPageCommand implements Command {
+public class ShowAdditionPageCommand implements Command {
 
     @Override
     public String execute(HttpServletRequest request) {
-        return ADDING_PAGE;
+        return ADDITION_PAGE;
     }
 }

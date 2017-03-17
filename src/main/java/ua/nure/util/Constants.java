@@ -4,15 +4,15 @@ public class Constants {
 
     public static final String PLAYERS_PAGE = "/WEB-INF/pages/players.jsp";
 
-    public static final String ADDING_PAGE = "/WEB-INF/pages/add.jsp";
+    public static final String ADDITION_PAGE = "/WEB-INF/pages/addition.jsp";
 
-    public static final String EDITING_PAGE = "/WEB-INF/pages/edit.jsp";
+    public static final String EDITING_PAGE = "/WEB-INF/pages/editing.jsp";
 
     public static final String OPTION = "option";
 
     public static final String GET_ALL = "getAll";
 
-    public static final String SHOW_ADDING_PAGE = "showAddingPage";
+    public static final String SHOW_ADDITION_PAGE = "showAdditionPage";
 
     public static final String SHOW_EDITING_PAGE = "showEditingPage";
 

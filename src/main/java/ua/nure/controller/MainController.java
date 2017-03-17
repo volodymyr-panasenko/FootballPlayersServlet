@@ -28,7 +28,8 @@ public class MainController extends HttpServlet {
         handleRequest(req, resp);
     }
 
-    private void handleRequest(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    private void handleRequest(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
         Command command = commandRepository.getCommand(req.getParameter(OPTION));
         RequestDispatcher requestDispatcher = req.getRequestDispatcher(command.execute(req));
         requestDispatcher.forward(req, resp);

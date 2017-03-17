@@ -15,7 +15,7 @@ public class CommandRepository {
 
     private CommandRepository() {
         commandMap.put(GET_ALL, new GetAllPlayersCommand());
-        commandMap.put(SHOW_ADDING_PAGE, new ShowAddingPageCommand());
+        commandMap.put(SHOW_ADDITION_PAGE, new ShowAdditionPageCommand());
         commandMap.put(SHOW_EDITING_PAGE, new ShowEditingPageCommand());
         commandMap.put(ADD, new AddPlayerCommand());
         commandMap.put(EDIT, new EditPlayerCommand());
