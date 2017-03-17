@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Editing / Addition</title>
+    <title>Editing</title>
     <%@include file="meta.jsp" %>
 </head>
 <body>

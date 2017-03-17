@@ -52,8 +52,7 @@
     </div>
 
     <div class="col-md-4">
-        <button type="button" id="add" class="btn btn-default"
-                onclick="window.location = '/players?option=showAddingPage'">
+        <button type="button" id="add" class="btn btn-default">
             <span class="glyphicon glyphicon-plus"></span>
             Add player
         </button>

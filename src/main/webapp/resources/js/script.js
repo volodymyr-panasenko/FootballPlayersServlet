@@ -31,6 +31,10 @@ $(document).ready(function () {
 
 //---------------Add player---------------
 
+    $("#add").click(function () {
+        window.location = "/players?option=showAdditionPage";
+    });
+
     $("#addition").submit(function (event) {
         event.preventDefault();
         var name = $("#name").val();
